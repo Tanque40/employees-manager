@@ -1,3 +1,15 @@
+# VS archives
+.vs
+**.sln
+**.vcxproj
+**.vcxproj.**
+**/x64/**
+**/Debug/**
+.vscode
+Makefile
+bin/**
+bin-int/**
+
 # Prerequisites
 *.d
 
@@ -27,6 +39,6 @@
 *.lib
 
 # Executables
-*.exe
+
 *.out
 *.app
