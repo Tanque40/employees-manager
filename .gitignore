@@ -9,6 +9,7 @@
 Makefile
 bin/**
 bin-int/**
+.DS_Store
 
 # Prerequisites
 *.d
