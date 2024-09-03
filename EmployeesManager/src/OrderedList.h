@@ -108,7 +108,7 @@ bool OrderedList<T>::removeElement(int elementToRemove) {
 	int indexToRemove = findElementPosition(elementToRemove);
 	if (indexToRemove >= 0) {
 		if (indexToRemove == count - 1)
-			ptr[indexToRemove] = Book();
+			ptr[indexToRemove] = T();
 		else
 			for (int i = indexToRemove; i < count - 1; i++)
 				ptr[i] = ptr[i + 1];
@@ -167,6 +167,6 @@ std::string OrderedList<T>::toString() {
 		return response;
 	}
 	else {
-		return "No books to show";
+		return "No Employees to show";
 	}
 }
